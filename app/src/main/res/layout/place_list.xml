@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_vert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/place_photo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/place_name"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/place_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/place_desc" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/place_photo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="@dimen/margin_horz"
+        android:src="@android:color/holo_blue_light" />
+
+</RelativeLayout>

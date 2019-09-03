@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Foto Wisata"
+                android:scaleType="fitXY"
+                android:src="@android:color/holo_blue_light" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nama_tempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Kota"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desk_tempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="deskripsi kota"
+            android:textAlignment="inherit"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
