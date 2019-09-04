@@ -10,10 +10,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:text="Developed by Samdev"
-        android:textSize="20dp"
-        android:layout_gravity="center"/>
+        android:textSize="20sp" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile"
@@ -23,23 +23,25 @@
         android:layout_marginTop="50dp"
         android:src="@drawable/photo_2"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Sami Kalamallah"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Sami Kalamallah"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:text="@string/about"
         android:textAlignment="center"
-        android:textSize="20dp"
-        android:layout_gravity="center"/>
+        android:textSize="20dp" />
+
 
 
 </LinearLayout>
