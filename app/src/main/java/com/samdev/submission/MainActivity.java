@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         listPlaceAdapter.setOnItemClickCallback(new ListPlaceAdapter.OnItemClickCallback() {
             @Override
             public void onItemClicked(Place data) {
-                Intent pindahActiv= new Intent(MainActivity.this, DetailActivity.class);
+                Intent pindahActiv = new Intent(MainActivity.this, DetailActivity.class);
                 pindahActiv.putExtra(DetailActivity.nama, data.getName());
                 pindahActiv.putExtra(DetailActivity.det, data.getFrom());
                 pindahActiv.putExtra(DetailActivity.photo, data.getPhoto());
