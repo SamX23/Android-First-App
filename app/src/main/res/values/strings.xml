@@ -1,13 +1,4 @@
 <resources>
-    <string name="app_name">Submission</string>
-    <string name="about_me">About Me</string>
-    <string name="exit">Keluar</string>
-    <string name="contact_us">Hubungi Kami</string>
-    <string name="place_desc">Deskripsi Tempat</string>
-    <string name="place_name">Nama Tempat</string>
-    <string name="back">kembali</string>
-    <string name="about">skalexsong@gmail.com</string>
-
     <array name="data_photo">
         <item>@drawable/pc_1</item>
         <item>@drawable/pc_2</item>
@@ -20,4 +11,16 @@
         <item>@drawable/pc_9</item>
         <item>@drawable/pc_10</item>
     </array>
+    <string name="app_name">Submission</string>
+    <string name="about_me">About Me</string>
+    <string name="exit">Keluar</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="place_desc">Deskripsi Tempat</string>
+    <string name="place_name">Nama Tempat</string>
+    <string name="back">kembali</string>
+
+    <string name="about">skalexsong@gmail.com</string>
+    <string name="title_activity_example">example</string>
+    <string name="DevName">Sami Kalamallah</string>
+    <string name="Details">Developed by Samdev</string>
 </resources>
