@@ -5,11 +5,11 @@ My first android app using JAVA on Android Studio
 Android application to show the vacation list on Cianjur city in West Java of Indonesia. This app keeps updating...
 
 # Screenshot
-![Screenshot01](screenshot/1.PNG?raw=true "Optional Title")
-![Screenshot01](screenshot/2.PNG?raw=true "Optional Title")
-![Screenshot01](screenshot/3.PNG?raw=true "Optional Title")
-![Screenshot01](screenshot/4.PNG?raw=true "Optional Title")
-![Screenshot01](screenshot/5.PNG?raw=true "Optional Title")
+![Screenshot01](screenshot/1.png?raw=true "Optional Title")
+![Screenshot01](screenshot/2.png?raw=true "Optional Title")
+![Screenshot01](screenshot/3.png?raw=true "Optional Title")
+![Screenshot01](screenshot/4.png?raw=true "Optional Title")
+![Screenshot01](screenshot/5.png?raw=true "Optional Title")
 
 # Feature
 - Recycler list of Place
