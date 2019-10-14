@@ -12,7 +12,7 @@
         <item>@drawable/pc_10</item>
     </array>
     <string name="app_name">Submission</string>
-    <string name="about_me">About Me</string>
+    <string name="about_me">About Dev</string>
     <string name="exit">Keluar</string>
     <string name="contact_us">Hubungi Kami</string>
     <string name="place_desc">Deskripsi Tempat</string>
@@ -22,6 +22,6 @@
     <string name="about">skalexsong@gmail.com</string>
     <string name="title_activity_example">example</string>
     <string name="DevName">Sami Kalamallah</string>
-    <string name="Details">Developed by Samdev</string>
+    <string name="Details">Developed by BroStudio</string>
     <string name="splash_screen">Splash Screen</string>
 </resources>
