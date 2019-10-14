@@ -23,4 +23,5 @@
     <string name="title_activity_example">example</string>
     <string name="DevName">Sami Kalamallah</string>
     <string name="Details">Developed by Samdev</string>
+    <string name="splash_screen">Splash Screen</string>
 </resources>

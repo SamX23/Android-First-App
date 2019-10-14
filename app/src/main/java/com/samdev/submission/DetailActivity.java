@@ -1,8 +1,6 @@
 package com.samdev.submission;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -36,24 +34,5 @@ public class DetailActivity extends AppCompatActivity {
 
 
     }
-
-
-    /*@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu2, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.kembali) {
-            System.exit(0);
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-     */
-
 }
 

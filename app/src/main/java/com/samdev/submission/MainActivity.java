@@ -1,14 +1,15 @@
 package com.samdev.submission;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String title = "Tempat Wisata Sekitar Cianjur";
         setTitle(title);
+        Toolbar toolbar = findViewById(R.id.tb2);
+        setSupportActionBar(toolbar);
 
         rvPlace = findViewById(R.id.place_list);
         rvPlace.setHasFixedSize(true);
