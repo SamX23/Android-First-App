@@ -4,6 +4,9 @@ My first android app using JAVA on Android Studio
 # About
 Android application to show the vacation list on Cianjur city in West Java of Indonesia. This app keeps updating...
 
+# Download
+https://drive.google.com/file/d/1BkaV6WHOviHdg8UFYIqAEMOsB-P2XBLK/view?usp=sharing
+
 # Screenshot
 ![Screenshot01](screenshot/1.png?raw=true "SplashScreen")
 ![Screenshot01](screenshot/2.png?raw=true "Main Activity")
