@@ -24,4 +24,7 @@
     <string name="DevName">Sami Kalamallah</string>
     <string name="Details">Developed by BroStudio</string>
     <string name="splash_screen">Splash Screen</string>
+    <string name="foto_wisata">Foto Wisata</string>
+    <string name="nama_kota">Kota</string>
+    <string name="deskripsi_kota">deskripsi kota</string>
 </resources>

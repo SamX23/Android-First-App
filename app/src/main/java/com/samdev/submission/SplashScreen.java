@@ -13,7 +13,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        int loading = 2500;
+        int loading = 2000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
