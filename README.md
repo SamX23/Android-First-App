@@ -6,6 +6,7 @@ Android application to show the vacation list on Cianjur city in West Java of In
 
 # Download
 https://drive.google.com/file/d/1BkaV6WHOviHdg8UFYIqAEMOsB-P2XBLK/view?usp=sharing
+(before migrate to AndroidX)
 
 # Screenshot
 ![Screenshot01](screenshot/1.png?raw=true "SplashScreen")
@@ -16,6 +17,7 @@ https://drive.google.com/file/d/1BkaV6WHOviHdg8UFYIqAEMOsB-P2XBLK/view?usp=shari
 
 # Feature
 - SplashScreen activity
+- AndroidX
 - Recycler list of Place
 - Detailed page each click on Recycler List
 - About me page
